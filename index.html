@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - Cyberpunk Hacker Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navbar with Glitch Effect -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="glitch" data-text="NEXUS">NEXUS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features" class="nav-link">⚡ features</a></li>
+                <li><a href="#terminal" class="nav-link">⌨ terminal</a></li>
+                <li><a href="#contact" class="nav-link">📡 contact</a></li>
+            </ul>
+            <div class="nav-status">
+                <span class="status-indicator"></span>
+                <span class="status-text">ONLINE</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Terminal Typing Animation -->
+    <section class="hero" id="terminal">
+        <div class="hero-content">
+            <!-- Terminal window effect -->
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-title">~/nexus_init.sh</span>
+                    <div class="terminal-buttons">
+                        <span class="btn-minimize"></span>
+                        <span class="btn-maximize"></span>
+                        <span class="btn-close"></span>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="command">./deploy_future.exe</span>
+                    </div>
+                    <div class="terminal-line typing-animation">
+                        <span class="output-text">Initializing NEXUS Framework v2.4.7</span>
+                        <span class="cursor"></span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output-text">> Quantum encryption: ENABLED</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output-text">> Neural interface: CONNECTED</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output-text">> Cybersecurity: ACTIVE</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="command">ready_for_launch</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h1 class="hero-title">Welcome to <span class="neon-text">NEXUS</span></h1>
+            <p class="hero-subtitle">Next-generation cyberpunk infrastructure for the digital age</p>
+            <button class="btn btn-primary" onclick="activateTerminal()">▶ ACCESS SYSTEM</button>
+            <p class="hero-meta">Authentication: Required • Security Level: Maximum</p>
+        </div>
+
+        <!-- Animated grid background -->
+        <div class="grid-background"></div>
+    </section>
+
+    <!-- Feature Cards with Neon Borders -->
+    <section class="features" id="features">
+        <h2 class="section-title"><span class="bracket">[</span> CORE SYSTEMS <span class="bracket">]</span></h2>
+        
+        <div class="features-grid">
+            <!-- Feature Card 1 -->
+            <div class="feature-card">
+                <div class="card-border"></div>
+                <div class="card-content">
+                    <div class="feature-icon">◆</div>
+                    <h3>Quantum Speed</h3>
+                    <p>Lightning-fast processing with advanced algorithms. Optimized for maximum throughput and minimal latency across all systems.</p>
+                    <div class="tech-specs">
+                        <span class="spec-tag">256-bit</span>
+                        <span class="spec-tag">GPU-ACCEL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="feature-card">
+                <div class="card-border"></div>
+                <div class="card-content">
+                    <div class="feature-icon">⬡</div>
+                    <h3>Neural Security</h3>
+                    <p>Military-grade encryption protocols with AI-powered threat detection. Real-time monitoring and adaptive defense mechanisms.</p>
+                    <div class="tech-specs">
+                        <span class="spec-tag">AES-256</span>
+                        <span class="spec-tag">AI-DEFENSE</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="feature-card">
+                <div class="card-border"></div>
+                <div class="card-content">
+                    <div class="feature-icon">■</div>
+                    <h3>Data Nexus</h3>
+                    <p>Distributed quantum database with real-time synchronization. Seamless data flow across decentralized nodes worldwide.</p>
+                    <div class="tech-specs">
+                        <span class="spec-tag">DISTRIBUTED</span>
+                        <span class="spec-tag">ZERO-LATENCY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="cta-content">
+            <h2>READY TO <span class="neon-cyan">TRANSCEND</span> REALITY?</h2>
+            <p>Join the digital revolution. Enter the NEXUS today and unlock unlimited possibilities.</p>
+            <button class="btn btn-primary">→ INITIATE PROTOCOL</button>
+            <div class="cta-meta">
+                <span class="cta-stat">99.99% Uptime</span>
+                <span class="cta-divider">•</span>
+                <span class="cta-stat">24/7 Support</span>
+                <span class="cta-divider">•</span>
+                <span class="cta-stat">Enterprise Grade</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Minimal Links -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>SYSTEM</h4>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#status">status</a></li>
+                    <li><a href="#roadmap">roadmap</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>SECURITY</h4>
+                <ul>
+                    <li><a href="#privacy">privacy</a></li>
+                    <li><a href="#terms">terms</a></li>
+                    <li><a href="#compliance">compliance</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>CONNECT</h4>
+                <ul>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">discord</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <p>NEXUS © 2026 | All systems operational</p>
+            <div class="footer-status">
+                <span class="dot"></span>
+                <span class="footer-status-text">Signal Strong</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
